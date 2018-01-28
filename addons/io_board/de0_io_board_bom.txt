@@ -1,0 +1,60 @@
+BOM for version 0.2d
+====================
+
+All resistors are SMT resistors, 1206 package, 1% tolerance
+2x resistor 100 Ohm (R19, R20)
+3x resistor 510 Ohm (R1, R7, R13)
+3x resistor 1k1 Ohm (R2, R8, R14)
+3x resistor 2k2 Ohm (R3, R9, R15)
+3x resistor 4k3 Ohm (R4, R10, R16)
+3x resistor 9k1 Ohm (R5, R11, R17)
+3x resistor 18k Ohm (R6, R12, R18)
+4x resistor 560 Ohm (R24, R25, R26, R27)
+1x resistor 1k  Ohm (R29)
+1x resistor 680 Ohm (R30)
+3x resistor 200 Ohm (R21, R22, R23)
+2x resistor 10k Ohm (R28, R31)
+
+Ceramic capacitors (no polarity), 1206 package
+4x capacitor 10nF (C1, C2, C3, C4)
+5x capacitor 100nF (unmarked on the bottom side of the SDRAM)
+4x capacitor 10uF (C9, C10, C11, C12)
+
+
+Tantalum capacitors (polarised), 1210 package
+3x capacitor 100uF (C5, C6, C8)
+
+1x transistor smt BC847, SOT23 package (Q1) 
+
+3x LED, 2.5V, 805 package (USER, DISK, POWER), for exmaple this:  KP-2012CGCK, possibly different colors
+
+1x Diode 1N4148 (fast switching diode D1), 1206 package, for example this:  KP-2012CGCK 
+
+1x VGA connector: Assmann WSW A-HDF 15 A-KG/T D-Sub Female 15 Way 1.98mm High Density (or compatible)
+
+1x SDcard reader: molex 502774-0891 (reverse mount)
+
+1x Audio connector: RS Pro 3.5 mm PCB Mount Right Angle Jack Socket, 5 ( RS Stock No. 913-1021 ), or similar.
+   Also common on ebay (check the footprint).
+ 
+1x IC SDRAM 256MBIT 166MHZ 54TSOP:  Alliance Memory AS4C16M16SA-6TCN or alternatively Winbond w9825g6jh-6. No other chips I found compatible.
+   Use only EXACTLY the IC number otherwise the chip will not be (unless you are lucky) compatible. AS4C16M16SA-6TCN is prefered.
+   Optionally you can cut off the SDRAM part of the PCB (using jeweller's saw) and buy assembled
+   vertical SDRAM board for DE10ns (see MiSTer forum).
+
+2x 40 pin header with long pins. 
+   https://www.aliexpress.com/item/10-Pcs-NEW-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header/32812823728.html
+   https://www.aliexpress.com/item/2-Pcs-PC104-2-54mm-Pitch-2x20-Pin-40-Pin-Female-Double-Row-Long-Pin-Header/32805691836.html
+
+1x fan 25x25x10mm, 5V or 3.3V. The less noisy the better. For example MC25100V1-000U-A99
+
+3x M2.5 bolt (15mm length), nut and washer for fastening the fan
+
+1x heat-sink (20mm x 20mm x 6mm) and thermal paste for the FPGA Chip on DE0-nano-SOC
+
+Misc. single and dual row headers 2.54mm for P3, P4, P5, P6, P7, P8
+Optionally 3x jumper 2.54mm for P5 (enable on board LEDs), P6 (VGA out) and P8 (VGA power)
+
+
+
+
