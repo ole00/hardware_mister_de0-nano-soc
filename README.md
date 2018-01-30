@@ -23,7 +23,11 @@ __Manufacturing parameters__:
 * Via process: tenting
 * Finished copper (thickness): 1oz
 
+__Schematic__:
 
+The board is hardware compatible with the original MiSTer IO board for DE10-nano, therefore the schematic is almost the same (missing TOS link on DE0ns).
+
+[MiSTer schematic](https://github.com/MiSTer-devel/Hardware_MiSTer/blob/master/Addons/IOBoard/iobrd_5.2.pdf)
 
 __Links__:
 
