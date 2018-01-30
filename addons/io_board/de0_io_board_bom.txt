@@ -28,7 +28,7 @@ Tantalum capacitors (polarised), 1210 package
 
 3x LED, 2.5V, 805 package (USER, DISK, POWER), for exmaple this:  KP-2012CGCK, possibly different colors
 
-1x Diode 1N4148 (fast switching diode D1), 1206 package, for example this:  KP-2012CGCK 
+1x Diode 1N4148 (fast switching diode D1), 1206 package, for example this: CD1206-S01575
 
 1x VGA connector: Assmann WSW A-HDF 15 A-KG/T D-Sub Female 15 Way 1.98mm High Density (or compatible)
 
@@ -51,6 +51,8 @@ Tantalum capacitors (polarised), 1210 package
 3x M2.5 bolt (15mm length), nut and washer for fastening the fan
 
 1x heat-sink (20mm x 20mm x 6mm) and thermal paste for the FPGA Chip on DE0-nano-SOC
+
+3x SPST-NO Tactile switch, through hole 6mm x 6mm (RESET, OSD, USER), for example FSM4JAH
 
 Misc. single and dual row headers 2.54mm for P3, P4, P5, P6, P7, P8
 Optionally 3x jumper 2.54mm for P5 (enable on board LEDs), P6 (VGA out) and P8 (VGA power)
