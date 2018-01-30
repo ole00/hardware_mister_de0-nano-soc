@@ -1,7 +1,7 @@
 # hardware_mister_de0-nano-soc
 **MiSTer add-on board for DE0-Nano-SoC FPGA dev board.**
 
-__Caution__: althoug the version 0.2d was tested and seems to work, consider it as **BETA**. That means there might be sligit modifications of the design in the future. 
+__Caution__: althoug the version 0.2d was tested and seems to work, consider it as **BETA**. That means there might be slight modifications of the design in the future. 
 No software exists for this board yet, but I plan to do release of some testing cores soon. 
 
 __What is it for__: an add-on board for Terasic DE0-Nano-SOC FPGA development board which is compatible (on hardware level) with the [MiSTer project](https://github.com/MiSTer-devel/Main_MiSTer/wiki). Software (cores) are only compatible on the source code level, therefore have to be recompiled for DE0-Nano-SOC. 
